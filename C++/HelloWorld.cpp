@@ -1,8 +1,8 @@
-#include <iostream> // manipulação de fluxo de dados padrão do sistema (entrada padrão, saída padrão e saída de erros padrão)
+#include <iostream> // manipulaÃ§Ã£o de fluxo de dados padrÃ£o do sistema (entrada padrÃ£o, saÃ­da padrÃ£o e saÃ­da de erros padrÃ£o)
 
-using namespace std;  // o certo é que todas as funções tenham std:: antes dela, mas com esse comando não precisamos acrescentar
+using namespace std;  // o certo Ã© que todas as funÃ§Ãµes tenham std:: antes dela, mas com esse comando nÃ£o precisamos acrescentar
 int main(void){
-	//para printar qualquer digitação utilizamos a função "cout"
+	//para printar qualquer digitaÃ§Ã£o utilizamos a funÃ§Ã£o "cout"
 	
 	std::cout << "Hello World! \n"; //sem o using namespace std; 
 	cout << "Hello World \n"; //com o using namespace std; 
@@ -12,7 +12,6 @@ int main(void){
 	cout << a << "\n"; //para cada nova escrita, devemos utilizar o "<<" 
 	
 	// outro exemplo de cout
-	cout << "O valor da variavel 'a' =" << a << "\n"; // o \n para descer até a proxima linha
-	
-	
+	cout << "O valor da variavel 'a' =" << a << "\n"; // o \n para descer atÃ© a proxima linha
+
 }
