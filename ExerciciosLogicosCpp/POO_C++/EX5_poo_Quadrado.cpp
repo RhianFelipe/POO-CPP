@@ -39,7 +39,7 @@ void mostra(){
 
 
 
-int main(){
+int main(){ //Declaração das funções
 	Quadrado d1(5);
 	d1.area();
 	d1.diagonal();
