@@ -12,7 +12,7 @@ int main(void){
 	cout << a << "\n"; //para cada nova escrita, devemos utilizar o "<<" 
 	
 	// outro exemplo de cout
-	cout << "O valor da variavel 'a' =" << a << "\n"; // o \n para descer até a proxima linha
+	cout << "O valor da variavel 'a' =" << a << "\n"; // o \n para descer até a proxima linha/Quebra linha
 	
 
 }
