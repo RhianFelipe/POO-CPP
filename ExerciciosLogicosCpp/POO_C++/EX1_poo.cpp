@@ -9,8 +9,6 @@ double profundidade;
 double peso;
 int empilhamento;
 
-
-
 public:
 // construtor
 Caixa(double altura, double largura, double profundidade) {
