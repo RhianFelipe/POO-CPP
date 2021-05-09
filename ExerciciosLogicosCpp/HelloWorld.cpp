@@ -3,7 +3,6 @@
 using namespace std;  // o certo é que todas as funções tenham std:: antes dela, mas com esse comando não precisamos acrescentar
 int main(void){
 	//para printar qualquer digitação utilizamos a função "cout"
-	
 	std::cout << "Hello World! \n"; //sem o using namespace std; 
 	cout << "Hello World \n"; //com o using namespace std; 
 	
