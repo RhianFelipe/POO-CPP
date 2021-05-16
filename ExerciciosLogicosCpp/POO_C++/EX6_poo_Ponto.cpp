@@ -4,7 +4,6 @@
 
 using namespace std;
 
-
 class Ponto{
 float x;
 float y;
