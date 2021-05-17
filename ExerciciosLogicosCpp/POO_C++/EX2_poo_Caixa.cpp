@@ -1,7 +1,6 @@
 #include <cstdio> // printf
 #include <iostream> // cout
 using namespace std;
-
 class Caixa {
 double altura; // metros
 double largura;
