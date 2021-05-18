@@ -1,16 +1,15 @@
-/*Faça um programa que entre com 2 strings
-pelo teclado. Então faça um programa que:
-– copie a string 1 para a string 3
-– concatene a string 2 na string 3
-– verifique se a string 1 é menor, maior ou igual a
+/*FaÃ§a um programa que entre com 2 strings
+pelo teclado. EntÃ£o faÃ§a um programa que:
+â€“ copie a string 1 para a string 3
+â€“ concatene a string 2 na string 3
+â€“ verifique se a string 1 Ã© menor, maior ou igual a
 string 2
-– mostre as 3 strings
-– mostre o tamanho das 3 strings*/
+â€“ mostre as 3 strings
+â€“ mostre o tamanho das 3 strings*/
 
 #include <iostream>
 #include <string> //Biblioteca para manipulacao de String
 using namespace std;
-
 int main(void){
 
 string s1,s2,s3, concats2s3; //declarando uma variavel do tipo string
