@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1618173545 source:c:\users\rhian\desktop\data\data.cpp
+	"data.h"
+	<cstdio>
+
+1618174504 c:\users\rhian\desktop\data\data.h
+	<cstdio>
+
+1618174065 source:c:\users\rhian\desktop\data\main.cpp
+	"data.h"
+
