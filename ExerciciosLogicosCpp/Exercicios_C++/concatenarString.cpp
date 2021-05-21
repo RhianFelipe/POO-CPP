@@ -6,7 +6,6 @@ pelo teclado. Então faça um programa que:
 string 2
 – mostre as 3 strings
 – mostre o tamanho das 3 strings*/
-
 #include <iostream>
 #include <string> //Biblioteca para manipulacao de String
 using namespace std;
