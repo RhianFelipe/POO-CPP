@@ -1,6 +1,5 @@
 #include <cstdio>
 
-
 class Somador {
   double valor;
   public:
