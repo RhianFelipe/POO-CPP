@@ -5,7 +5,6 @@ int main(void){
 	//para printar qualquer digitação utilizamos a função "cout"
 	std::cout << "Hello World! \n"; //sem o using namespace std; 
 	cout << "Hello World \n"; //com o using namespace std; 
-	
 	//printando variaveis:
 	int a = 5; //variavel do tipo inteiro que recebe o valor 5
 	cout << a << "\n"; //para cada nova escrita, devemos utilizar o "<<" 
