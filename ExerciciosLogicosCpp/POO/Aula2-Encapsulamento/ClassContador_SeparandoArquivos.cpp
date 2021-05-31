@@ -1,14 +1,13 @@
 #include <iostream>
 #include <string>
 using namespace std;
-
 //.h exportar
 class Contador{
-	private: //O jeito certo de você implementar num empresa
+	private: //O jeito certo de vocÃª implementar num empresa
 	int num; //atributo
 	string nome;
 	
-public: // você tem que colocar que é publico, se não da erro, pois tudo ja é privado
+public: // vocÃª tem que colocar que Ã© publico, se nÃ£o da erro, pois tudo ja Ã© privado
 
 	
 	//Metodos
