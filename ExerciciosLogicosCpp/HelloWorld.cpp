@@ -11,5 +11,4 @@ int main(void){
 
 	// outro exemplo de cout
 	cout << "O valor da variavel 'a' =" << a << "\n"; // o \n para descer até a proxima linha/Quebra linha
-	
 }
