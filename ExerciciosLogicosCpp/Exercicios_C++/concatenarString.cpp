@@ -10,7 +10,6 @@ string 2
 #include <string> //Biblioteca para manipulacao de String
 using namespace std;
 int main(void){
-
 string s1,s2,s3, concats2s3; //declarando uma variavel do tipo string
 cout << "Digite a primeira palavra para concatenar:";
 cin >> s1;
