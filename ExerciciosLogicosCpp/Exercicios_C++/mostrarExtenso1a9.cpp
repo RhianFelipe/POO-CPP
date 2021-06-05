@@ -1,7 +1,6 @@
 
 #include <iostream>
 #include <string>
-
 using namespace std;
 int main(void)
 {
@@ -10,8 +9,8 @@ int main(void)
   
   cout << "Digite um valor entre 1 e 9:";
   cin >> n;
-  //Switch case para condições
-  //Existe melhores formas de resolver o problema, principalmente se forem mais números
+  //Switch case para condiÃ§Ãµes
+  //Existe melhores formas de resolver o problema, principalmente se forem mais nÃºmeros
   if(n > 0 && n < 10){
   	switch(n){
   		case 1: cout << ("Um")    ;break;
