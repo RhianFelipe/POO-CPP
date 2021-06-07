@@ -23,8 +23,6 @@ int main(void)
 		case 8: cout << ("Oito")  ;break;
 		case 9: cout << ("Nove")  ;break;
   }
-  
-  	
   } else {
   		cout << "O valor digitado nao esta entre 1 e 9";
   }
