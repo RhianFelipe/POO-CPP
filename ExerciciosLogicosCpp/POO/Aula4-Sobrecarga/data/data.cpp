@@ -2,8 +2,6 @@
 #include "data.h"
 #include <cstdio>
 
-
-
 Data::Data(int d, int m, int a) { // construtor
 dia = d;
 mes = m;
