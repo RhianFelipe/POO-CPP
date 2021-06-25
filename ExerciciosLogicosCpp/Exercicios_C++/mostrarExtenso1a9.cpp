@@ -27,9 +27,6 @@ int main(void)
   		cout << "O valor digitado nao esta entre 1 e 9";
   }
 
-  
-  
-  
 
 }
 
