@@ -9,7 +9,6 @@ class Contador{
 	
 public: // você tem que colocar que é publico, se não da erro, pois tudo ja é privado
 
-	
 	//Metodos
 	void comeca(string);
 	void incrementa();
