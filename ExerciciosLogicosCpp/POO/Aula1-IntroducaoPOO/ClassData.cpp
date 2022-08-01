@@ -7,16 +7,12 @@ using namespace std;
 
 
 class Data {
-int dia;
-int mes;
-int ano;
+int _dia;
+int _mes;
+int _ano;
 
 public:
-Data(int d, int m, int a) { // construtor
-dia = d;
-mes = m;
-ano = a;
-}
+Data(int dia, int mes, int ano): _dia(dia), _mes(mes),_ano(ano) { // construtor}
 Data(){
 time_t mytime;
     mytime = time(NULL);
@@ -25,47 +21,45 @@ time_t mytime;
 	
 }
 
-Data(int mes, int ano){
-	this->dia = 1;
-	this->mes = mes;
-	this->ano = ano;
+Data(int mes, int ano):_mes(mes),_ano(ano){
+	_dia = 1;
 }
 
 //getters
 
-int getDia(){
+int  getDia() const{
 	return this->dia;
 }
 
-int getMes(){
+int getMes() const{
 	return this->mes;
 }
 
-int getAno(){
+int getAno() const{
 	return this->ano;
 }
 
 //setters
 
-void setDia(int d){
-	dia = d;
+void setDia(int dia){
+	_dia = dia;
 }
 
-void setMes(int m){
+void setMes(int mes){
 	
-	if(m>0 and m <=12){
-		mes = m;
+	if(mes>0 and mes <=12){
+		_mes = mes;
 	}else
 	   printf("\n Mes invalido!");
 }
 
-void setAno(int a){
-	ano = a;
+void setAno(int ano){
+	_ano = ano;
 }
 
 
 void mostra() {
-printf("\n%02d/%02d/%d ", dia, mes, ano);
+printf("\n%02d/%02d/%d ", _dia, _mes, _ano);
 }
 
 ~Data() { // destrutor
@@ -73,9 +67,9 @@ printf("\nObjeto destruido");
 }
 
 bool anoBissexto() {
-if( ano % 4 == 0) {
-if( ano % 100 == 0) {
-if( ano % 400 == 0)
+if( _ano % 4 == 0) {
+if( _ano % 100 == 0) {
+if( _ano % 400 == 0)
 return true; // % 400
 else
 return false; // % 100
@@ -96,7 +90,7 @@ printf("\nData nao esta em ano bissexto");
 }
 
 int trimestre() {
-return (mes-1)/3 + 1;
+return (_mes-1)/3 + 1;
 }
 
 
@@ -106,7 +100,7 @@ printf("\nData esta no %do trimestre", trimestre());
 }
 
 int numDiasMes() {
-switch(mes) {
+switch(_mes) {
 case 1:
 case 3:
 case 5:
