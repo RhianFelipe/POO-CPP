@@ -12,7 +12,8 @@ int _mes;
 int _ano;
 
 public:
-Data(int dia, int mes, int ano): _dia(dia), _mes(mes),_ano(ano) { // construtor}
+Data(int dia, int mes, int ano): _dia(dia), _mes(mes),_ano(ano) { // construtor
+}
 Data(){
 time_t mytime;
     mytime = time(NULL);
@@ -28,15 +29,15 @@ Data(int mes, int ano):_mes(mes),_ano(ano){
 //getters
 
 int  getDia() const{
-	return this->dia;
+	return _dia;
 }
 
 int getMes() const{
-	return this->mes;
+	return _mes;
 }
 
 int getAno() const{
-	return this->ano;
+	return _ano;
 }
 
 //setters
