@@ -40,7 +40,7 @@ printf("\nData nao esta em ano bissexto");
 }
 
 int Data::trimestre() {
-return (mes-1)/3 + 1;
+return (_mes-1)/3 + 1;
 }
 
 
@@ -50,7 +50,7 @@ printf("\nData esta no %do trimestre", trimestre());
 }
 
 int Data::numDiasMes() {
-switch(mes) {
+switch(_mes) {
 case 1:
 case 3:
 case 5:
