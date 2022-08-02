@@ -4,46 +4,42 @@ using namespace std;
 
 class Fracao{
 
-int num;
-int den;		
+int _num;
+int _den;		
 		
 		
 public:
-		
-Fracao(int num = 0, int den = 1){
-		this->num = num;
-		this->den = den;
 
-	}
- void soma(Fracao f1,Fracao f2){
+Fracao(int num = 0, int den = 1): _num(num), _den(den){}
+
+void soma(Fracao f1,Fracao f2){
 		
-		if(f1.den == f2.den){
-			this->num =f1.num + f2.num;
-			this->den = f1.den;
+		if(f1._den == f2._den){
+			_num =f1._num + f2._num;
+		    _den = f1._den;
 		}else{
-		this->num = (f1.num*f2.den) + ( f1.den*f2.num);
-	this->den =  f1.den * f2.den;	
+		_num = (f1._num*f2._den) + ( f1._den*f2._num);
+    _den =  f1._den * f2._den;	
 		}
  	
-		
-		
+
 	}
 	
-	void mostra(){
-	 cout << num << "/" << den << " ";
+	void mostra() const{
+	 cout << _num << "/" << _den << " ";
 	}
 	
 	double toReal(){
-		return (double)num / den; //Agora divide Real
+		return (double)_num / _den; //Agora divide Real
 	}
 	
 	double simplifica(){
     int cont = 2;
-    while (cont <= this->num or cont<= this->den){
+    while (cont <= _num or cont <= _den){
         
-        if (this->num % cont == 0 and this->den % cont == 0){
-            this->num = this->num/cont;
-            this->den = this->den/cont;
+        if (_num % cont == 0 and _den % cont == 0){
+            _num = _num/cont;
+            _den = _den/cont;
         }else {
             cont++;
         }
