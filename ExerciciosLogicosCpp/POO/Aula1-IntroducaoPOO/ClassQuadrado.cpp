@@ -4,26 +4,24 @@
  using namespace std;
  
 class Quadrado{
-double lado;
+double _lado;
 
 public:	
-Quadrado(double lado){
-this->lado = lado;	
-}
+Quadrado(double lado):_lado(lado){}
 
 double area(){
 	
-return pow(lado,2) ;	
+return pow(_lado,2) ;	
 	
 }
 
 double perimetro(){
-	return 4*lado;
+	return 4*_lado;
 }
 
 double diagonal(){
 
-return pow(lado,2) + pow(lado,2);
+return pow(_lado,2) + pow(_lado,2);
 	
 }
 
