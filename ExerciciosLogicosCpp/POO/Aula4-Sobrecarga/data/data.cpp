@@ -3,13 +3,13 @@
 #include <cstdio>
 
 Data::Data(int d, int m, int a) { // construtor
-dia = d;
-mes = m;
-ano = a;
+_dia = d;
+_mes = m;
+_ano = a;
 }
 
 void Data::mostra() {
-printf("\n%02d/%02d/%d ", dia, mes, ano);
+printf("\n%02d/%02d/%d ", _dia, _mes, _ano);
 }
 
 Data::~Data() { // destrutor
@@ -17,9 +17,9 @@ printf("\nObjeto destruido");
 }
 
 bool Data::anoBissexto() {
-if( ano % 4 == 0) {
-if( ano % 100 == 0) {
-if( ano % 400 == 0)
+if( _ano % 4 == 0) {
+if( _ano % 100 == 0) {
+if( _ano % 400 == 0)
 return true; // % 400
 else
 return false; // % 100
@@ -32,7 +32,7 @@ return false;
 }
 
 void Data::mostraAnoBissexto() {
-if( this->anoBissexto() )
+if( anoBissexto() )
 printf("\nData esta em ano bissexto");
 else
 printf("\nData nao esta em ano bissexto");
