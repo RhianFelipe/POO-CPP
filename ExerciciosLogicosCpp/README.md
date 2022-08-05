@@ -1,6 +1,6 @@
 # Exercicios Lógicos feito em C++ 
 
-- Repositório feito com intuito de postar exercícios lógicos conforme meu aprendizado na linguagem C++.
+- Repositório feito com intuito de postar exercícios lógicos conforme meu aprendizado na linguagem C++ e nos Conceitos de POO.
 - Além de também algumas informações e explicações a mais.
 - Caso queira ver sobre consulte a [documentação](https://docs.microsoft.com/pt-br/cpp/cpp/?view=msvc-160) oficial.
 --------------------------------
